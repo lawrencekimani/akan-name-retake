@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <title>My Akan Name</title>
+ </head> 
+ <body>
+   <div class="container">
+    <div class="jumbotron">
+      <h1>What's Your Akan Name?</h1>
+      <p>Since time immemorial,The People of Akan from Ghana have had their own naming system giving credence to gender.Most importantly,There are Akan names for every gender and every day of the week.Due to cultural erosion and western influence,the naming system has somewhat been forgotten by many of the people<.The Akan people of Ghana name their children according to the day of the week they were born as well as their gender. Wouldn't you be excited to find out your Ghanian name? Get your own Akan (Ghanian) name based on your Gender, Birth date and Birth year today!! Just enter your details below and click the button to proceed :)</p>
+    </div>
+  </div>
+   <div class="wrapper">
+     <h2>Please enter your Birthdate and select your Gender</h2>
+     
+     <form id="mydetails">
+       <div class = "inputfield">
+         <label>On what day were you born?</label><br>
+         <input type="number" placeholder="Day of the Month e.g. 23" id="birth-day">
+       </div>
+       <div class = "inputfield">
+        <label>Which month were you born in?</label><br>
+        <input type="number" placeholder="Month e.g. 02 for February" id="birth-month">
+      </div>
+      <div class = "inputfield">
+        <label>Which year were you born in?</label><br>
+        <input type="number" placeholder="Year of birth" id="birth-year">
+      </div>
+       <div class = "inputfield">
+         <label>Please select your gender:</label>
+        <input type="radio" name="gender" value="Male" checked> Male
+        <input type="radio" name="gender" value="Female" > Female
+
+      </div> 
+      <button onclick= "akanName()">Get Akan Name</button>
+    </form> 
+    
+   </div>
+   <script src="js/scripts.js"></script>
+ </body>
+</html>
